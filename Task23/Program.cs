@@ -3,3 +3,10 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+Console.Write("Enter the number: ");
+int n = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= n; i++)
+{
+    Console.WriteLine($"{i} -> {i*i*i}");
+}

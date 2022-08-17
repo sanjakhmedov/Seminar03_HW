@@ -5,3 +5,6 @@
 // 14212 -> нет
 // 12821 -> да
 // 23432 -> да
+
+Console.Write("Enter the 5 digit number: ");
+int num = Convert.IntTo32(Console.ReadLine());
