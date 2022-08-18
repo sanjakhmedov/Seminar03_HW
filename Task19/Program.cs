@@ -14,7 +14,6 @@ int n1 = n / 1000 % 10;
 int n2 = n / 100 % 10;
 int n3 = n / 10 % 10;
 int n4 = n % 10;
-Console.WriteLine(n4);
 
 if (n0 == n4 && n1 == n3) 
 {
